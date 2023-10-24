@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # 指定图像文件的绝对路径
-image_path = r'D:\ProductCV\Vision_Detector\Cable_3_in_a_View.jpg'
+image_path = '.\Cable_3_in_a_View.jpg'
 
 # 读取图像
 image = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)
